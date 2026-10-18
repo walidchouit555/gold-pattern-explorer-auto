@@ -311,8 +311,8 @@ else:
 
     pattern_length = st.selectbox(
         "Pattern length (hourly candles)",
-        [48, 72, 96, 144],
-        index=3,
+        [72, 96, 144, 216],
+        index=2,
         key="matching_pattern_length"
     )
 
